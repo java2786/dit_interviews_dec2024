@@ -1,0 +1,18 @@
+GET https://owasp.org/www-project-top-ten/
+
+###
+
+GET https://jsonplaceholder.typicode.com/albums
+###
+
+GET https://jsonplaceholder.typicode.com/albums/8
+###
+
+POST https://jsonplaceholder.typicode.com/albums
+content-type: application/json
+
+{
+    "ironman": "can fly",
+    "car": "batman's car",
+    "age": "superage"
+}
